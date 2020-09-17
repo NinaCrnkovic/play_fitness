@@ -2,18 +2,25 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+}
 #header {
     background-image: url(images/womeninmirror.jpg);
     background-size: cover;
-    background-position: center;
-    
+    background-position: center, center;
+    background-repeat: no-repeat;   
     height: 80vh;
     width: 100vw;
 
 
 }
-
+@media only screen and (max-width: 767px) {
+    #header {
+            background-image: url(images/man1.jpg);
+    }
+}
 #logo {
     color: rgb(197, 22, 22);
     font-size: 22px;
@@ -174,14 +181,15 @@ font-size: 18px;
 .dosomething{
     height: 50vh;
     background-image: url(images/neonsign.jpg);
-    background-position: center;
+    background-position: center, center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
-#contact{
+/*#contact{
    
-}
+}*/
 .contact{
     padding: 50px 20px;
     background-color: #333;
