@@ -12,13 +12,17 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Fitnes club</title>
 </head>
 
 <body>
     <section id='header'>
         <nav class="navbar navbar-light">
-            <a class="navbar-brand" href="#" id="logo">Play fitness</a>
+            <a class="navbar-brand  " href="#top" id="logo" >Play fitness</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
@@ -26,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#top">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About us</a>
@@ -41,7 +45,7 @@
                         <a class="nav-link" href="#reviews">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact us</a>
+                        <a class="nav-link" href="#footer">Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -52,7 +56,7 @@
 
     <section id="welcome">
         <div class="container">
-            <div class="welcome text-center">
+            <div class="welcome text-center animate__animated animate__zoomIn">
                 <h1>Welcome to Play fitness</h1>
                 <p>Be bolder, be greater, come and play with us!</p>
 
@@ -108,7 +112,7 @@
                         comfortable working out on your own.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/yoga.png" alt="yoga" ">
+                    <img src="images/yoga.png" alt="yoga" >
                     <h4>Yoga</h4>
                     <p>Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India.</p>
                 </div>
@@ -127,7 +131,7 @@
            
             <div class="row">
                 <div class="col-md-6">
-                    <img src="images/fitnesscouple.png" alt="fitnesscouple">
+                    <img src="images/fitnesscouple.png" class="animate__animated animate__zoomIn" alt="fitnesscouple">
                 </div>
                 <div class="col-md-6">
                     <div class="feature-box">
@@ -192,7 +196,7 @@ I'm going to the gym. There are a lot of great exercise equipment. I can’t ima
                 <div class="col-md-4">
                     <p class="userrew"> 
                         Boxs is my thing. This is the best way to get rid of stress and get rid of everything negative.
-                        <br><i class="fa fa-twitter"></i> <span>NicolleBlack</span>
+                        <br><i class="fa fa-twitter"></i> <span>@NicolleBlack</span>
                     </p>
                     <img class="userpic" src="images/user3.jpg" alt="user1">
                 </div>
@@ -209,7 +213,7 @@ I'm going to the gym. There are a lot of great exercise equipment. I can’t ima
             <div class="input-group">
                 <input type="email" class="form-control" placeholder="Email Id">
                 <div class="input-group-append">
-                    <button type="submit" class="input-grup-text btn">Subscribe</button>
+                    <button type="submit" class="input-group-text btn">Subscribe</button>
                 </div>
                 
             </div>
@@ -218,6 +222,34 @@ I'm going to the gym. There are a lot of great exercise equipment. I can’t ima
         </div>
     </section>
 
+    <section id='footer'>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>Features</h1>
+                    <p>Certified Trainers</p>
+                    <p>Free Consultation</p>
+                    <p>Flexible Time</p>
+                   
+                </div>
+                <div class="col-md-4">
+                    <img src="logo/logo.png" alt="" class="footer-logo">
+                </div>
+                <div class="col-md-4 ">
+                    <h1 class="right">Contact</h1>
+                    <p class="right" href="mob:+385981234567"><i class="fa fa-phone-square"> </i> mob: +385 98 123 4567</p>
+                    <p class="right" href="mailto:play@gmail.com"><i class="fa fa-envelope"> </i>play@gmail.com</p>
+                    <p class="right"> <i class="fa fa-home"> </i> Fit street 12, Neverland</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <script src="smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
