@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    overflow-x: hidden;
+}
 body{
     box-sizing: border-box;
     font-size: 16px;
@@ -57,13 +60,23 @@ nav .fa-bars {
 
 .welcome {
     padding: 50px 100px;
-    margin-top: -40px;
+    width: 80vw;
+    margin: -40px 0 0 0;
     background-color: #fff;
     box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+    text-align: center;
 }
 
 .welcome h1 {
     color: rgb(196, 22, 22);
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0;
+}
+.welcome p{
+    padding: 0;
+    margin: 0;
 }
 
 #about {
@@ -258,14 +271,15 @@ font-size: 18px;
 }
 .footer-logo {
     text-align: center;
-    
+  
     
    
     
 }
 .footer-logo img{
-    width: 200px;
+    width: 25vw;
     margin: 0 auto;
+    align-self: center;
   
     
 }
