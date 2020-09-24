@@ -123,6 +123,7 @@ p {
 }
 #features img{
     height: 70vh;
+    max-width: 80vw;
 }
 
 .feature-box{
@@ -162,7 +163,7 @@ p {
   
 }
 #reviews{
-  
+   
     padding-top: 100px;
     padding-bottom: 100px;
    
@@ -170,6 +171,9 @@ p {
 #reviews .col-md-4{
     padding: 10px 30px;
     
+}
+.user-cont{
+    max-width: 90vw;
 }
 .userpic{
     height:100px;
